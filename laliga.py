@@ -46,4 +46,5 @@ len(laliga_data)
 
 laliga_df = pd.concat(laliga_data)
 
+
 laliga_df.to_csv("laliga.csv")
